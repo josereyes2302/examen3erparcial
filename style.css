@@ -1,0 +1,97 @@
+body{
+    background-color: #F2F2F2 !important;
+}
+
+#header{
+    font-family: 'Mada', sans-serif;
+    font-family: 'Mulish', sans-serif;
+    background-color: #234997;
+    color: #e8e8e8;
+}
+#header img{
+    width: 300px;
+
+}
+#header a{
+    color: #234997 !important;
+}
+#header a:hover{
+    text-decoration: underline;
+    color: #5dc5f1 !important;
+}
+#servicios img{
+    height: 280px;
+    object-fit: cover;
+}
+#titulo{
+    color: #234997 !important;
+}
+#personal img{
+    height: 348px;
+    object-fit: cover;
+}
+#media{
+    color:#FF6A14 !important;
+}
+#educacion img{
+    height: 280px;
+    object-fit: cover;
+}
+#footer{
+    background-color:#234997 ;
+}
+#footer p{
+    color: white !important;
+}
+
+#mapita{
+    align-items: center;
+}
+
+#main .carousel-inner img{
+    max-height: 70vh ; 
+    object-fit: cover;
+    filter: grayscale(70%);
+}
+.fila{
+    justify-items: center;
+    align-items: centers;
+}
+
+#carousel{
+    position: relative;
+}
+#carousel .overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+    height: 100%;
+}
+/*Shocase*/
+
+/*Responsive */
+/*
+@media(max-width:700px){
+    .servicios{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .educacion{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .vid{
+        align-items: center;
+        justify-content: center;
+    }
+    .banner{
+        align-items: center;
+        justify-content: center;
+    }
+}
